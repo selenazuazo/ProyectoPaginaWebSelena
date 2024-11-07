@@ -1,5 +1,5 @@
 .menuCabecera{
-background-color: #be1622;
+background-color: #A4CDD7;
 width: 100%; height: 100%;
 }
 *{
@@ -7,9 +7,13 @@ width: 100%; height: 100%;
     padding: 0;
 }
 .banner{
-    background-color: #1d70b8;
+     background-image: url(../imagenes/selena1.avif);
+     background-size: cover;
+     background-position-y:30% ;
     width: 100%;
-    height: 120px;
+    height: 350px;
+    background-repeat: no-repeat;
+    
 }
 .CajaColumnas{
 display: flex;
@@ -35,3 +39,29 @@ gap: 10px;
 .final{background-color: chocolate;
 width: 100%;
 height: 120px;}
+.menuSuperior li{
+    display: inline;
+    padding: 5px;
+    border-right: solid 2px black;
+}
+.menuSuperior li:last-child{
+    border-right: none;
+}
+.menuSuperior{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: right;
+    padding: 20px;
+}
+.menuSuperior li a:hover{
+    color: #e2430c;
+    background-color: #02506E;
+    text-decoration: overline;
+}
+li a{
+    text-decoration: none;
+
+}
+.banner{
+   
+}
