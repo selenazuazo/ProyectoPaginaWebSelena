@@ -44,7 +44,7 @@ height: 120px;}
     padding: 5px;
     
 }
-.bordeDerecho{
+.bordeDerecho li{
     border-right: solid 2px black;
 }
 .menuSuperior li:last-child{
