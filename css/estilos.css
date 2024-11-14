@@ -42,6 +42,9 @@ height: 120px;}
 .menuSuperior li{
     display: inline;
     padding: 5px;
+    
+}
+.bordeDerecho{
     border-right: solid 2px black;
 }
 .menuSuperior li:last-child{
